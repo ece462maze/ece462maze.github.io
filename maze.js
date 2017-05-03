@@ -321,8 +321,8 @@ window.addEventListener( 'mouseup' , function(event) {
 window.onload = function() {
 	arrowImage = new Image();
 	finishImage = new Image();
-    arrowImage.src = "resources/arrow.png";
-    finishImage.src = "resources/finish.png";
+    arrowImage.src = "arrow.png";
+    finishImage.src = "finish.png";
     init();
     animate();
 };
