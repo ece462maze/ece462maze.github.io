@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	 user-select: none;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.canvas3d {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.preview {
+	 width: 430px;
+	 color: #FFF;
+	 background: #0F0F0F;
+	 position: fixed;
+	 top: 0px;
+	 right: 0px;
+	 z-index: 9;
+	 padding: 2px;
+	 border-radius: 6px;
+	 border: 1px solid #000;
+}
+
+.info {
+	font-size: 14px;
+	float: left;
+	width: 210px;
+	padding: 10px 0 0 10px;
+}
+
+.keys {
+  margin: 10px;
+}
+
+img {
+  margin-right: 10px;
+}
+
+.instructions {
+  margin-bottom: 10px;
+}
+
+.instructions h1 {
+  font-size: 24px;
+}
+
+i {
+  color: #D52F78;
+  font-size: 12px;
+}
+
+#canvas2d {
+	width: 200px;
+	float: left;
+}
+
+#time {
+  position: fixed;
+  top: 0;
+  left: 25px;
+  height: 120px;
+  color: #FFF;
+  z-index: 9991;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 45px;
+}
